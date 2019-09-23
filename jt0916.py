@@ -5,6 +5,7 @@ from pyb import ExtInt
 from pyb import Timer
 from pyb import ADC
 import time
+pyb.freq(30000000)
 
 class NBIOT():
     def __init__(self,uart_port,uart_baud):
